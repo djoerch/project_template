@@ -5,7 +5,7 @@ import os
 from argparse import ArgumentParser, RawTextHelpFormatter  # noqa: E402
 from textwrap import dedent  # noqa: E402
 
-from nvc.log_utils import (  # noqa: E402
+from example_package.log_utils import (  # noqa: E402
     add_verbosity_options_to_argparser,
     get_logger,
     log_lvl_from_verbosity_args,
