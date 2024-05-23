@@ -1,4 +1,5 @@
 # <PROJECT>
+
 Code for the analysis of <...>.
 
 ## Acknowledgement
@@ -9,6 +10,8 @@ The code is <...>.
 ```
 pip install -e <path_to_repo>
 ```
+
+After installation with the above command, the python scripts in the folder `scripts` will be available to be called in `bash` and accessible via auto-completion.
 
 ## Development
 
@@ -30,4 +33,4 @@ The settings here include
 
 **After cloning** a repo locally, execute `pre-commit install` in the repo. After that, the hooks will be automatically called at each commit.
 
-**NOTE** `pre-commit` is part of `requirements.txt` and must be installed first.
+**NOTE** `pre-commit` is part of `requirements-dev.txt` and must be installed first.
